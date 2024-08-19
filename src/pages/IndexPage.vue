@@ -7,7 +7,8 @@
       :todos="todos"
       :meta="meta"
     ></example-component>
-    <google-maps></google-maps>
+    <google-mapsv2></google-mapsv2>
+    <!-- <maps-route></maps-route> -->
   </q-page>
 </template>
 
@@ -15,7 +16,9 @@
 import { ref } from 'vue';
 import { Todo, Meta } from 'components/models';
 import ExampleComponent from 'components/ExampleComponent.vue';
-import GoogleMaps from 'components/GoogleMaps.vue';
+import GoogleMapsv2 from 'components/GoogleMapsv2.vue';
+// import GoogleMaps from 'components/GoogleMaps.vue';
+// import MapsRoute from 'components/MapsRoute.vue';
 
 defineOptions({
   name: 'IndexPage',
